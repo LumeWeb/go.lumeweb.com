@@ -1,5 +1,10 @@
 import_paths:
+  - path: go.lumeweb.com/xportal
+    repo_path: https://github.com/LumeWeb/xportal
+    vcs: git
+  - path: go.lumeweb.com/web/go/portal-dashboard
+    repo_path: https://github.com/LumeWeb/web
+    vcs: git
   - path: go.lumeweb.com/*
-    repo_path: https://github.com/LumeWeb/*
-    branch: develop
+    repo_path: https://github.com/LumeWeb
     vcs: git
